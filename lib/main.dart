@@ -21,7 +21,7 @@ class ARAssistantApp extends StatelessWidget {
       child: AnimatedBuilder(
         animation: themeController,
         builder: (context, child) => MaterialApp(
-          title: 'AR Assistant',
+          title: 'VT-360 Assistant',
           debugShowCheckedModeBanner: false,
           theme: themeController.currentTheme,
           home: const ChatPage(),
