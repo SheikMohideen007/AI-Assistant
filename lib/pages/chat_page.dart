@@ -138,7 +138,10 @@ class _ChatPageState extends State<ChatPage> {
       drawer: buildCustomDrawer(context),
       appBar: AppBar(
         elevation: 0,
-        title: Text("AR Assistant", style: theme.appBarTheme.titleTextStyle),
+        title: Text(
+          "VT-360 Assistant",
+          style: theme.appBarTheme.titleTextStyle,
+        ),
         centerTitle: true,
         actions: [
           Padding(

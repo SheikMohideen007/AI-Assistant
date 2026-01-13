@@ -170,12 +170,12 @@ Future<void> _showTimeoutBottomSheet(BuildContext context) async {
                   DropdownMenuItem(value: 60, child: Text('60 seconds')),
                   DropdownMenuItem(value: 75, child: Text('75 seconds')),
                   DropdownMenuItem(
-                    value: 120,
-                    child: Text('120 seconds (2 min)'),
+                    value: 200,
+                    child: Text('200 seconds (3+ min)'),
                   ),
                   DropdownMenuItem(
-                    value: 200,
-                    child: Text('200 seconds (3+ min) (default)'),
+                    value: 1000,
+                    child: Text('1000 seconds (15+ min) (default)'),
                   ),
                 ],
                 onChanged: (newValue) async {

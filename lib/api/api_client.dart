@@ -15,8 +15,8 @@ class ApiClient {
     dio = Dio(
       BaseOptions(
         baseUrl: ApiConfig.BASE_URL,
-        connectTimeout: const Duration(seconds: 200),
-        receiveTimeout: const Duration(seconds: 200),
+        connectTimeout: const Duration(seconds: 1000),
+        receiveTimeout: const Duration(seconds: 1000),
       ),
     );
 
